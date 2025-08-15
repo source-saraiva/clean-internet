@@ -4,7 +4,7 @@
 # ================================================================================
 
 # === NEW ENTRIES ===
-@@||canyoublockit.com^ghide
+@@||canyoublockit.com^$ghide
 
 
 ||mopinion.com^
