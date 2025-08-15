@@ -34,6 +34,10 @@
 ||hotjar.com^
 ||mouseflow.com^
 ||notify.bugsnag.com^
+||cdn.luckyorange.com^
+||bugsnag.com^
+0.0.0.0 mouseflow.com
+0.0.0.0 app.getsentry.com
 0.0.0.0 browser.sentry-cdn.com
 0.0.0.0 app.getsentry.com
 0.0.0.0 stats.wp.com
@@ -43,6 +47,7 @@
 0.0.0.0 abp.telemetry.adblockplus.org
 0.0.0.0 hotjar-analytics.com
 0.0.0.0 contentsquare.net
+0.0.0.0 pixel.facebook.com
 0.0.0.0 analytics.facebook.com
 0.0.0.0 ads.facebook.com
 0.0.0.0 an.facebook.com
@@ -50,6 +55,11 @@
 0.0.0.0 static.ads-twitter.com
 0.0.0.0 ads-api.twitter.com
 0.0.0.0 advertising.twitter.com
+0.0.0.0 ads.linkedin.com
+0.0.0.0 analytics.pointdrive.linkedin.com
+0.0.0.0 ads.pinterest.com
+0.0.0.0 log.pinterest.com
+0.0.0.0 ads-dev.pinterest.com
 
 
 # ================================================================================
