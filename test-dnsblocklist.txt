@@ -8,7 +8,7 @@ yastatic.net
 ymatuhin.ru
 ||mds.yandex.net^
 ||cloudfront.net^
-d3ward.github.io	
+||advertising.yahooinc.com^	
 
 
 
