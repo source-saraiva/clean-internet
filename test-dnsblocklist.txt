@@ -12,6 +12,9 @@
 ||googlesyndication.com^
 ||googleadservices.com^
 ||media.net^
+||doubleclick.net^
+||fastclick.com^
+||fastclick.net^
 0.0.0.0 ads.google.com
 0.0.0.0 adservice.google.com
 0.0.0.0 googleadservices.com
@@ -27,11 +30,27 @@
 #  Trackers
 # ================================================================================
 
+||google-analytics.com^
+||hotjar.com^
+||mouseflow.com^
+||notify.bugsnag.com^
+0.0.0.0 browser.sentry-cdn.com
+0.0.0.0 app.getsentry.com
+0.0.0.0 stats.wp.com
+0.0.0.0 luckyorange.com
+0.0.0.0 freshmarketer.com
 0.0.0.0 appmetrica.yandex.com
 0.0.0.0 abp.telemetry.adblockplus.org
-0.0.0.0 static.hotjar.com
 0.0.0.0 hotjar-analytics.com
 0.0.0.0 contentsquare.net
+0.0.0.0 analytics.facebook.com
+0.0.0.0 ads.facebook.com
+0.0.0.0 an.facebook.com
+0.0.0.0 ads-twitter.com
+0.0.0.0 static.ads-twitter.com
+0.0.0.0 ads-api.twitter.com
+0.0.0.0 advertising.twitter.com
+
 
 # ================================================================================
 #  Malwares
