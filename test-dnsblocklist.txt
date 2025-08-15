@@ -4,12 +4,17 @@
 # ================================================================================
 
 # === NEW ENTRIES ===
+yastatic.net
+ymatuhin.ru
+d2wy8f7a9ursnm.cloudfront.net
+||mds.yandex.net^
+
+
+# === EXISTING ENTRIES ===
 securemetrics.apple.com
 supportmetrics.apple.com
 metrics.icloud.com
 metrics.mzstatic.com
-
-# === EXISTING ENTRIES ===
 tracking-protection.cdn.mozilla.net
 abp.telemetry.adblockplus.org
 ad.samsungadhub.com
