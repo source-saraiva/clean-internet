@@ -8,6 +8,7 @@ yastatic.net
 ymatuhin.ru
 d2wy8f7a9ursnm.cloudfront.net
 ||mds.yandex.net^
+||.cloudfront.net	
 
 
 # === EXISTING ENTRIES ===
