@@ -11,6 +11,7 @@ ymatuhin.ru
 
 
 # === EXISTING ENTRIES ===
+data.ads.oppomobile.com
 log.fc.yahoo.com
 gemini.yahoo.com
 appmetrica.yandex.ru
