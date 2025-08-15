@@ -9,7 +9,7 @@
 #  Ads
 # ================================================================================
 
-127.0.0.1 googlesyndication.com
+127.0.0.1 (^|\.)googlesyndication\.com$
 127.0.0.1 ads.google.com
 172.0.0.1 adservice.google.com
 127.0.0.1 googleadservices.com
