@@ -9,7 +9,8 @@
 #  Ads
 # ================================================================================
 
-0.0.0.0 googlesyndication.com
+||googlesyndication.com^
+||googleadservices.com^
 0.0.0.0 ads.google.com
 0.0.0.0 adservice.google.com
 0.0.0.0 googleadservices.com
