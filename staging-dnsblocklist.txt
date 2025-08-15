@@ -9,32 +9,28 @@
 #  Ads
 # ================================================================================
 
-adtago.s3.amazonaws.com
-analyticsengine.s3.amazonaws.com
-advice-ads.s3.amazonaws.com
-affiliationjs.s3.amazonaws.com
-advertising-api-eu.amazon.com
-googlesyndication.com
-ads.google.com
-googleadservices.com
-fastclick.net
-(^|\.)media\.net$ && !^www\.media\.net$
-(^|\.)doubleclick\.net$ && !^www\.doubleclick\.net$
-(^|\.)fastclick\.com$ && !^www\.fastclick\.com$
+127.0.0.1 googlesyndication.com
+127.0.0.1 ads.google.com
+172.0.0.1 adservice.google.com
+127.0.0.1 googleadservices.com
+127.0.0.1 static.media.net
+127.0.0.1 adservetx.media.net
+127.0.0.1 fastclick.net
+127.0.0.1 adtago.s3.amazonaws.com
+127.0.0.1 analyticsengine.s3.amazonaws.com
+127.0.0.1 advice-ads.s3.amazonaws.com
+127.0.0.1 affiliationjs.s3.amazonaws.com
+127.0.0.1 advertising-api-eu.amazon.com
 
 # ================================================================================
 #  Trackers
 # ================================================================================
 
-appmetrica.yandex.com
-^data\.mistat\..*\.xiaomi\.com$
-(^|\.)hotjar-analytics\.com$
-abp.telemetry.adblockplus.org
-static.hotjar.com
-hotjar-analytics.com
-contentsquare.net
-(^|\.)google-analytics\.com$
-(^|\.)static.hotjar\.com$
+127.0.0.1 appmetrica.yandex.com
+127.0.0.1 abp.telemetry.adblockplus.org
+127.0.0.1 static.hotjar.com
+127.0.0.1 hotjar-analytics.com
+127.0.0.1 contentsquare.net
 
 # ================================================================================
 #  Malwares
