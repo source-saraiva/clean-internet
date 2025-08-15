@@ -11,6 +11,20 @@ ymatuhin.ru
 
 
 # === EXISTING ENTRIES ===
+log.fc.yahoo.com
+gemini.yahoo.com
+appmetrica.yandex.ru
+adfstat.yandex.ru
+metrika.yandex.ru
+bdapi-ads.realmemobile.com
+adx.ads.oppomobile.com
+notes-analytics-events.apple.com
+analytics.query.yahoo.com
+analytics.google.com
+geo.yahoo.com
+udc.yahoo.com
+udcm.yahoo.com
+analytics.query.yahoo.com
 iot-eu-logser.realme.com
 iot-logser.realme.com
 bdapi-in-ads.realmemobile.com
