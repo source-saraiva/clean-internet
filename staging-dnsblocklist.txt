@@ -9,28 +9,28 @@
 #  Ads
 # ================================================================================
 
-127.0.0.1 (^|\.)googlesyndication\.com$
-127.0.0.1 ads.google.com
-172.0.0.1 adservice.google.com
-127.0.0.1 googleadservices.com
-127.0.0.1 static.media.net
-127.0.0.1 adservetx.media.net
-127.0.0.1 fastclick.net
-127.0.0.1 adtago.s3.amazonaws.com
-127.0.0.1 analyticsengine.s3.amazonaws.com
-127.0.0.1 advice-ads.s3.amazonaws.com
-127.0.0.1 affiliationjs.s3.amazonaws.com
-127.0.0.1 advertising-api-eu.amazon.com
+0.0.0.0 googlesyndication.com
+0.0.0.0 ads.google.com
+0.0.0.0 adservice.google.com
+0.0.0.0 googleadservices.com
+0.0.0.0 static.media.net
+0.0.0.0 adservetx.media.net
+0.0.0.0 fastclick.net
+0.0.0.0 adtago.s3.amazonaws.com
+0.0.0.0 analyticsengine.s3.amazonaws.com
+0.0.0.0 advice-ads.s3.amazonaws.com
+0.0.0.0 affiliationjs.s3.amazonaws.com
+0.0.0.0 advertising-api-eu.amazon.com
 
 # ================================================================================
 #  Trackers
 # ================================================================================
 
-127.0.0.1 appmetrica.yandex.com
-127.0.0.1 abp.telemetry.adblockplus.org
-127.0.0.1 static.hotjar.com
-127.0.0.1 hotjar-analytics.com
-127.0.0.1 contentsquare.net
+0.0.0.0 appmetrica.yandex.com
+0.0.0.0 abp.telemetry.adblockplus.org
+0.0.0.0 static.hotjar.com
+0.0.0.0 hotjar-analytics.com
+0.0.0.0 contentsquare.net
 
 # ================================================================================
 #  Malwares
