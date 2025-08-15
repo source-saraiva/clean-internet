@@ -1,8 +1,7 @@
 
 
-# Initial testing on https://paileactivist.github.io/toolz/adblock.html
-# Results in 80%
-# Adding this blocklist makes it go up 
+# Initial testing with built in blocklist using https://paileactivist.github.io/toolz/adblock.html
+# Results in 80%, adding this blocklist makes it go up 
 
 
 # ================================================================================
@@ -34,8 +33,9 @@
 ||hotjar.com^
 ||mouseflow.com^
 ||notify.bugsnag.com^
-||cdn.luckyorange.com^
+||luckyorange.com^
 ||bugsnag.com^
+||cleverads.vn^
 0.0.0.0 mouseflow.com
 0.0.0.0 app.getsentry.com
 0.0.0.0 browser.sentry-cdn.com
@@ -60,7 +60,29 @@
 0.0.0.0 ads.pinterest.com
 0.0.0.0 log.pinterest.com
 0.0.0.0 ads-dev.pinterest.com
-
+0.0.0.0 log.pinterest.com
+0.0.0.0 analytics.pinterest.com
+0.0.0.0 trk.pinterest.com
+0.0.0.0 widgets.pinterest.com
+0.0.0.0 ads.reddit.com
+0.0.0.0 d.reddit.com
+0.0.0.0 rereddit.com
+0.0.0.0 events.redditmedia.com
+0.0.0.0 ads.youtube.com
+0.0.0.0 analytics.tiktok.com
+0.0.0.0 ads.tiktok.com
+0.0.0.0 analytics-sg.tiktok.com
+0.0.0.0 ads-sg.tiktok.com
+0.0.0.0 ads.yahoo.com
+0.0.0.0 global.adserver.yahoo.com
+0.0.0.0 analytics.yahoo.com
+0.0.0.0 ads.yap.yahoo.com
+0.0.0.0 appmetrica.yandex.com
+0.0.0.0 yandexadexchange.net
+0.0.0.0 analytics.mobile.yandex.net
+0.0.0.0 extmaps-api.yandex.net
+0.0.0.0 extmaps-api.yandex.net
+0.0.0.0 adsdk.yandex.ru
 
 # ================================================================================
 #  Malwares
