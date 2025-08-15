@@ -1,7 +1,15 @@
 
 # ================================================================================
-#  Carefully vetted blocklist with low risk of breaking legitimate sites	
+#  Carefully vetted blocklist with low risk of breaking legitimate sites (TESTING)	
 # ================================================================================
+
+# === NEW ENTRIES ===
+securemetrics.apple.com
+supportmetrics.apple.com
+metrics.icloud.com
+metrics.mzstatic.com
+
+# === EXISTING ENTRIES ===
 tracking-protection.cdn.mozilla.net
 abp.telemetry.adblockplus.org
 ad.samsungadhub.com
