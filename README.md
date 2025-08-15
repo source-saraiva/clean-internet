@@ -2,7 +2,7 @@
 
 Keep the internet clean!
 
-*clean-internet** is an open-source initiative aimed at making the web safer, faster, and cleaner by leveraging community-maintained blocklists to filter out:
+**clean-internet** is an open-source initiative aimed at making the web safer, faster, and cleaner by leveraging community-maintained blocklists to filter out:
 
 - Ads and trackers
 - Malware domains
