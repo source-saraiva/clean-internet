@@ -8,7 +8,8 @@ yastatic.net
 ymatuhin.ru
 ||mds.yandex.net^
 ||cloudfront.net^	
-
+/pagead.js$domain=d3ward.github.io
+/widget/ads.
 
 # === EXISTING ENTRIES ===
 ck.ads.oppomobile.com
