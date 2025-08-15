@@ -1,5 +1,9 @@
 
 
+# Initial testing on https://paileactivist.github.io/toolz/adblock.html
+# Results in 80%
+# Adding this blocklist makes it go up 
+
 
 # ================================================================================
 #  Ads
@@ -10,6 +14,13 @@ analyticsengine.s3.amazonaws.com
 advice-ads.s3.amazonaws.com
 affiliationjs.s3.amazonaws.com
 advertising-api-eu.amazon.com
+googlesyndication.com
+ads.google.com
+googleadservices.com
+fastclick.net
+(^|\.)media\.net$ && !^www\.media\.net$
+(^|\.)doubleclick\.net$ && !^www\.doubleclick\.net$
+(^|\.)fastclick\.com$ && !^www\.fastclick\.com$
 
 # ================================================================================
 #  Trackers
@@ -17,11 +28,14 @@ advertising-api-eu.amazon.com
 
 appmetrica.yandex.com
 ^data\.mistat\..*\.xiaomi\.com$
-(^|\.)hotjar-analytics\.com
-
-
-
+(^|\.)hotjar-analytics\.com$
+abp.telemetry.adblockplus.org
+static.hotjar.com
+hotjar-analytics.com
+contentsquare.net
+(^|\.)google-analytics\.com$
+(^|\.)static.hotjar\.com$
 
 # ================================================================================
-#  Malware
+#  Malwares
 # ================================================================================
