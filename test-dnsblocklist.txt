@@ -1,6 +1,6 @@
 
 # ================================================================================
-#  Community-trusted list with low risk of breaking legitimate sites	
+#  Carefully vetted blocklist with low risk of breaking legitimate sites	
 # ================================================================================
 tracking-protection.cdn.mozilla.net
 abp.telemetry.adblockplus.org
