@@ -11,6 +11,7 @@ d2wy8f7a9ursnm.cloudfront.net
 
 
 # === EXISTING ENTRIES ===
+metrics.apple.com
 securemetrics.apple.com
 supportmetrics.apple.com
 metrics.icloud.com
