@@ -6,12 +6,29 @@
 # === NEW ENTRIES ===
 yastatic.net
 ymatuhin.ru
-d2wy8f7a9ursnm.cloudfront.net
 ||mds.yandex.net^
 ||cloudfront.net^	
 
 
 # === EXISTING ENTRIES ===
+iot-eu-logser.realme.com
+iot-logser.realme.com
+bdapi-in-ads.realmemobile.com
+adsfs.oppomobile.com
+grs.hicloud.com
+iadsdk.apple.com
+api-adservices.apple.com
+books-analytics-events.apple.com
+weather-analytics-events.apple.com
+auction.unityads.unity3d.com
+config.unityads.unity3d.com
+adserver.unityads.unity3d.com
+analytics.s3.amazonaws.com
+click.googleanalytics.com
+claritybt.freshmarketer.com
+fwtracks.freshmarketer.com
+log.byteoversea.com
+adtech.yahooinc.com
 metrics.apple.com
 securemetrics.apple.com
 supportmetrics.apple.com
