@@ -11,11 +11,11 @@
 
 ||googlesyndication.com^
 ||googleadservices.com^
+||media.net^
 0.0.0.0 ads.google.com
 0.0.0.0 adservice.google.com
 0.0.0.0 googleadservices.com
-0.0.0.0 static.media.net
-0.0.0.0 adservetx.media.net
+0.0.0.0 media.net
 0.0.0.0 fastclick.net
 0.0.0.0 adtago.s3.amazonaws.com
 0.0.0.0 analyticsengine.s3.amazonaws.com
