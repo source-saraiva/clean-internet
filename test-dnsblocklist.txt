@@ -7,11 +7,13 @@
 yastatic.net
 ymatuhin.ru
 ||mds.yandex.net^
-||cloudfront.net^	
-/pagead.js$domain=d3ward.github.io
-/widget/ads.
+||cloudfront.net^
+d3ward.github.io	
+
+
 
 # === EXISTING ENTRIES ===
+partnerads.ysm.yahoo.com
 ck.ads.oppomobile.com
 data.ads.oppomobile.com
 log.fc.yahoo.com
