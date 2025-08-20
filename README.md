@@ -1,4 +1,5 @@
 # Primelist  
+**Primelist – curated denylist for DNS security**
 
 Primelist is a curated hosts list that contains domains associated with adware, malware, and other unwanted content that need to be blocked.  
 By consolidating trusted sources and extending the list with newly discovered threats, Primelist helps protect your network privacy and security effectively.  
