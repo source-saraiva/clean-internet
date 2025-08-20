@@ -23,3 +23,20 @@
 0.0.0.0 advertising.twitter.com
 0.0.0.0 metrics2.data.hicloud.com
 0.0.0.0 metrics-dra.dt.hicloud.com
+0.0.0.0 ads30.adcolony.com
+0.0.0.0 adc3-launch.adcolony.com
+0.0.0.0 events3alt.adcolony.com
+0.0.0.0 wd.adcolony.com
+0.0.0.0 fwtracks.freshmarketer.com
+0.0.0.0 notify.bugsnag.com
+0.0.0.0 sessions.bugsnag.com
+0.0.0.0 api.bugsnag.com
+0.0.0.0 app.bugsnag.com
+0.0.0.0 browser.sentry-cdn.com
+0.0.0.0 app.getsentry.com
+0.0.0.0 static.ads-twitter.com
+0.0.0.0 ads.pinterest.com
+0.0.0.0 adfox.yandex.ru
+0.0.0.0 adserver.unityads.unity3d.com
+0.0.0.0 adx.ads.oppomobile.com
+0.0.0.0 
