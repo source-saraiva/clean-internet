@@ -1,3 +1,4 @@
+# Primelist 
 
 ## 🌐 English  
 **Primelist – curated denylist for DNS security**
@@ -20,7 +21,6 @@ This allows us to gather usage metrics from real-world scenarios, helping us ref
 
 Suggestions and feedback are always welcome.
 
----
 
 ## 🌐 Português  
 **Primelist – lista negra selecionada para segurança DNS**
@@ -43,7 +43,7 @@ Isso nos permite coletar métricas de uso em cenários reais, ajudando a refinar
 
 Sugestões e feedback são sempre bem-vindos.
 
----
+
 
 ## 🌐 Français  
 **Primelist – liste de blocage sélectionnée pour la sécurité DNS**
@@ -66,7 +66,7 @@ Cela nous permet de collecter des métriques d’utilisation dans des scénarios
 
 Suggestions et retours sont toujours les bienvenus.
 
----
+
 
 ## 🌐 Español  
 **Primelist – lista de bloqueo seleccionada para la seguridad DNS**
