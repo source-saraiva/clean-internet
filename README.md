@@ -1,5 +1,8 @@
 # Primelist 
 
+## 🌍 Languages / Idiomas / Langues / Idiomas  
+- [English](#-english)| [Português](#-português)| [Français](#-français)| [Español](#-español) 
+
 ## 🌐 English  
 **Primelist – curated denylist for DNS security**
 
