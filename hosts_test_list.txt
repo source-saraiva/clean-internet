@@ -1,4 +1,4 @@
-# 2025-08-20 --Contrib-1
+# 2025-08-20 --C1
 0.0.0.0 samsungadhub.com
 0.0.0.0 analytics.oneplus.cn
 0.0.0.0 hotjar-analytics.com
@@ -20,3 +20,6 @@
 0.0.0.0 data.mistat.rus.xiaomi.com
 0.0.0.0 metrics5.data.hicloud.com
 0.0.0.0 logservice.hicloud.com
+0.0.0.0 advertising.twitter.com
+0.0.0.0 metrics2.data.hicloud.com
+0.0.0.0 metrics-dra.dt.hicloud.com
