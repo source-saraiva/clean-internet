@@ -86,7 +86,3 @@ La meilleure façon de contribuer est de **configurer vos appareils ou résolveu
 Cela nous permet de recueillir des métriques d’utilisation dans des scénarios réels, ce qui nous aide à affiner la liste et à détecter de nouvelles menaces plus efficacement.  
 
 Suggestions et retours sont toujours les bienvenus.  
-
----
-
-## 🏷️ Tags (para GitHub Topics)  
