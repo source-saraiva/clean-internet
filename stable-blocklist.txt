@@ -1,6 +1,0 @@
-# ================================================================================
-# STABLE BLOCKLIST 
-# Community-vetted version designed for safe, everyday use.
-# Prioritizes reliability and minimizes risk of blocking legitimate domains.
-# ================================================================================
-
