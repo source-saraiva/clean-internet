@@ -1,11 +1,6 @@
-Excelente ideia 👍
-Assim fica fácil navegar entre as línguas no próprio GitHub.
-Montei o README em **Markdown completo**, com **menu de navegação no topo** e **links de retorno ao menu no final de cada secção**.
 
----
 
-```markdown
-# primelist
+# Primelist
 
 ![latest release](https://img.shields.io/github/release/source-saraiva/primelist) 
 ![license](https://img.shields.io/github/license/source-saraiva/primelist)  
@@ -19,160 +14,96 @@ Montei o README em **Markdown completo**, com **menu de navegação no topo** e 
 
 ---
 
-## 🇬🇧 English
+## 🌍 English
 
-**primelist** is a curated collection of **domains, IP addresses, and phone numbers** used to strengthen security against ads, tracking, malware, and malicious actors.  
+**Primelists** é uma colecção de listas de **domínios, endereços IP e números de telefone** usados para reforçar a segurança contra anúncios, tracking, malware e actores maliciosos.
 
-### 📂 Contents
-- **primelist_domains.txt** — main list of domains to block (ads + tracking + malware).  
-- **primelist_domains_eval.txt** — evaluation list of domains under review before promotion to the main list.  
-- **primelist_ips.txt** — main list of IP addresses identified as bad actors (brute force, abuse, etc.).  
+Este repositório disponibiliza listas curadas que podem ser usadas em soluções como **Pi-hole**, firewalls (`firewalld`, `iptables`), sistemas de deteção de intrusões e outros ambientes de filtragem.
 
-### ⚙️ How It Works
-- **Domains**: start with [StevenBlack/hosts](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts) as a base and extend with our own analysis. Domains are tested on our public DNS servers via the evaluation list before promotion.  
-- **IPs**: collected from brute-force attempts detected on our own and participant servers (mainly via *Fail2Ban*). Published with a **90-day retention policy**.  
+---
 
-### 🚀 How to Use
-- **Domains**  
-  Add to Pi-hole or compatible blockers:  
-```
+## Conteúdo
 
-[https://raw.githubusercontent.com/source-saraiva/primelist/refs/heads/main/primelist\_domains.txt](https://raw.githubusercontent.com/source-saraiva/primelist/refs/heads/main/primelist_domains.txt)
+* **primelist\_domains.txt**
+  Lista principal de domínios a bloquear (anúncios, tracking e malware).
 
-```
-Evaluation list:  
-```
+* **primelist\_domains\_eval.txt**
+  Lista de domínios em fase de avaliação. Estes são testados nos nossos servidores DNS públicos antes de serem promovidos para a lista principal, reduzindo falsos positivos.
 
-[https://raw.githubusercontent.com/source-saraiva/primelist/refs/heads/main/primelist\_domains\_eval.txt](https://raw.githubusercontent.com/source-saraiva/primelist/refs/heads/main/primelist_domains_eval.txt)
+* **primelist\_ips.txt**
+  Lista principal de endereços IP considerados actores maliciosos, usada para proteger contra ataques de força bruta e outras ameaças de rede.
 
-````
+---
 
-- **IPs**  
-Example for `firewalld`:  
+## Como Funciona
+
+### Domínios
+
+* Base inicial: [StevenBlack/hosts](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts).
+* A lista é estendida com base na nossa própria identificação e análise.
+* Os domínios passam pela lista de **avaliação** antes de integrarem a lista principal.
+
+### IPs
+
+* Recolha feita a partir de ataques de força bruta detectados em servidores próprios e de participantes, maioritariamente via **Fail2Ban**.
+* Os IPs são publicados com **política de retenção de 90 dias**.
+* O objectivo é partilhar inteligência de ameaças para reforçar a defesa colectiva.
+
+---
+
+## Como Usar
+
+### Bloqueio de Domínios
+
+Adicionar a seguinte lista ao Pi-hole ou outro bloqueador compatível:
+
+* Lista principal:
+
+  ```
+  https://raw.githubusercontent.com/source-saraiva/primelists/refs/heads/main/primelist_domains.txt
+  ```
+
+  **Comentário sugerido:** `source-saraiva`
+
+* Lista de avaliação:
+
+  ```
+  https://raw.githubusercontent.com/source-saraiva/primelists/refs/heads/main/primelist_domains_eval.txt
+  ```
+
+### Bloqueio de IPs
+
+Para integrar os IPs na firewall, pode criar um script com `curl` ou `wget` que corre em `cron` e actualiza regularmente:
+
 ```bash
-URL="https://raw.githubusercontent.com/source-saraiva/primelist/refs/heads/main/primelist_ips.txt"
+# Exemplo para firewalld
+URL="https://raw.githubusercontent.com/source-saraiva/primelists/refs/heads/main/primelist_ips.txt"
 curl -s $URL -o /tmp/primelist_ips.txt
 
+# Aplica à zona access-denied
 for ip in $(cat /tmp/primelist_ips.txt); do
   sudo firewall-cmd --permanent --zone=access-denied --add-source=$ip
 done
 
 sudo firewall-cmd --reload
-````
-
-### 🤝 Contributing
-
-* Report new domains/IPs via issues.
-* Flag false positives to improve accuracy.
-* Submit pull requests with new lists.
-
-[⬆️ Back to top](#-navigation)
+```
 
 ---
 
-## 🇵🇹 Português (PT)
+## Notas
 
-**primelist** é uma colecção de **domínios, endereços IP e números de telefone** usada para reforçar a segurança contra anúncios, tracking, malware e actores maliciosos.
-
-### 📂 Conteúdo
-
-* **primelist\_domains.txt** — lista principal de domínios a bloquear (anúncios + tracking + malware).
-* **primelist\_domains\_eval.txt** — lista de domínios em avaliação antes de serem promovidos.
-* **primelist\_ips.txt** — lista principal de endereços IP considerados *bad actors* (ataques de força bruta, abuso, etc.).
-
-### ⚙️ Como Funciona
-
-* **Domínios**: base inicial em [StevenBlack/hosts](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts), estendida com análise própria. Os domínios passam pela lista de avaliação nos nossos servidores DNS públicos.
-* **IPs**: recolhidos de ataques de força bruta detectados em servidores próprios e de participantes (maioritariamente via *Fail2Ban*). Publicados com **retenção de 90 dias**.
-
-### 🚀 Como Usar
-
-* **Domínios**
-  Adicionar ao Pi-hole ou bloqueadores compatíveis:
-
-  ```
-  https://raw.githubusercontent.com/source-saraiva/primelist/refs/heads/main/primelist_domains.txt
-  ```
-
-  Lista de avaliação:
-
-  ```
-  https://raw.githubusercontent.com/source-saraiva/primelist/refs/heads/main/primelist_domains_eval.txt
-  ```
-
-* **IPs**
-  Exemplo para `firewalld`:
-
-  ```bash
-  URL="https://raw.githubusercontent.com/source-saraiva/primelist/refs/heads/main/primelist_ips.txt"
-  curl -s $URL -o /tmp/primelist_ips.txt
-
-  for ip in $(cat /tmp/primelist_ips.txt); do
-    sudo firewall-cmd --permanent --zone=access-denied --add-source=$ip
-  done
-
-  sudo firewall-cmd --reload
-  ```
-
-### 🤝 Contribuições
-
-* Reportar novos domínios/IPs via issues.
-* Indicar falsos positivos para reduzir bloqueios indevidos.
-* Submeter *pull requests* com listas adicionais.
-
-[⬆️ Voltar ao topo](#-navigation)
+* Use estas listas com cuidado: listas demasiado agressivas podem bloquear tráfego legítimo.
+* É recomendada a manutenção de uma *whitelist* para IPs/domínios confiáveis.
+* A participação de mais utilizadores aumenta a precisão e reduz falsos positivos.
 
 ---
 
-## 🇫🇷 Français
+## Contribuições
 
-**primelist** est une collection de **domaines, adresses IP et numéros de téléphone** utilisée pour renforcer la sécurité contre les publicités, le tracking, les malwares et les acteurs malveillants.
+Se quiser contribuir:
 
-### 📂 Contenu
+1. Submeta issues com sugestões de novos domínios/IPs.
+2. Partilhe relatórios de falsos positivos para melhorar a curadoria.
+3. Pode também propor *pull requests* com listas adicionais.
 
-* **primelist\_domains.txt** — liste principale des domaines à bloquer (publicités + tracking + malwares).
-* **primelist\_domains\_eval.txt** — liste d’évaluation des domaines en cours de validation.
-* **primelist\_ips.txt** — liste principale des adresses IP considérées comme *bad actors* (attaques par force brute, abus, etc.).
-
-### ⚙️ Fonctionnement
-
-* **Domaines** : base sur [StevenBlack/hosts](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts), enrichie par notre propre analyse. Les domaines passent par la liste d’évaluation testée sur nos serveurs DNS publics.
-* **IPs** : collectées à partir d’attaques par force brute détectées sur nos serveurs et ceux des participants (principalement via *Fail2Ban*). Publiées avec une **politique de rétention de 90 jours**.
-
-### 🚀 Utilisation
-
-* **Domaines**
-  À ajouter dans Pi-hole ou tout autre bloqueur compatible :
-
-  ```
-  https://raw.githubusercontent.com/source-saraiva/primelist/refs/heads/main/primelist_domains.txt
-  ```
-
-  Liste d’évaluation :
-
-  ```
-  https://raw.githubusercontent.com/source-saraiva/primelist/refs/heads/main/primelist_domains_eval.txt
-  ```
-
-* **IPs**
-  Exemple pour `firewalld` :
-
-  ```bash
-  URL="https://raw.githubusercontent.com/source-saraiva/primelist/refs/heads/main/primelist_ips.txt"
-  curl -s $URL -o /tmp/primelist_ips.txt
-
-  for ip in $(cat /tmp/primelist_ips.txt); do
-    sudo firewall-cmd --permanent --zone=access-denied --add-source=$ip
-  done
-
-  sudo firewall-cmd --reload
-  ```
-
-### 🤝 Contribuer
-
-* Signaler de nouveaux domaines/IPs via issues.
-* Rapporter les faux positifs pour améliorer la précision.
-* Proposer des *pull requests* avec de nouvelles listes.
-
-[⬆️ Retour en haut](#-navigation)
-
+---
