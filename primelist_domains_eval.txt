@@ -155,8 +155,8 @@
 0.0.0.0 analytics.query.yahoo.com
 
 # yahooinc.com
-www.advertising.yahooinc.com
-www.adtech.yahooinc.com
+0.0.0.0 www.advertising.yahooinc.com
+0.0.0.0 www.adtech.yahooinc.com
 
 # yandex.ru
 0.0.0.0 appmetrica.yandex.ru
