@@ -32,7 +32,7 @@
 # googleanalytics.com
 0.0.0.0 click.googleanalytics.com
 
-# googleapis.com (google store)
+# googleapis.com (breaks google store)
 #0.0.0.0 play-fe.googleapis.com
 #0.0.0.0 play.googleapis.com
 
