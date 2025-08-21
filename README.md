@@ -6,7 +6,9 @@
 ## 🌐 Navigation
 [English](#-english) | [Português](#-português) | [Français](#-français)
 
+
 ---
+
 
 ## 🌍 English
 Primelists is a collection of lists of domains, IP addresses, and phone numbers used to enhance security against ads, tracking, malware, and malicious actors.
@@ -82,7 +84,9 @@ If you want to contribute:
 2. Share false positive reports to improve curation.
 3. You can also propose pull requests with additional lists.
 
+
 ---
+
 
 ## 🌍 Português
 **Primelists** é uma colecção de listas de **domínios, endereços IP e números de telefone** usados para reforçar a segurança contra anúncios, tracking, malware e actores maliciosos.
