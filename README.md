@@ -132,7 +132,7 @@ Adicionar a seguinte lista ao Pi-hole ou outro bloqueador compatível:
   ```
   https://raw.githubusercontent.com/source-saraiva/primelist/refs/heads/main/primelist_domains_eval.txt
   ```
->[!IMPORTANTE]
+>[!IMPORTANT]
 >**Não usar em produção**
 
 ### Bloqueio de IPs
