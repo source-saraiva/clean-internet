@@ -35,7 +35,7 @@
 0.0.0.0 samsungadhub.com
 
 # 2o7.net
-samsung-com.112.2o7.net
+0.0.0.0 samsung-com.112.2o7.net
 
 # oneplus.cn
 0.0.0.0 analytics.oneplus.cn
