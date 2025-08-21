@@ -1,8 +1,6 @@
 # Primelist
 
-![license](https://img.shields.io/github/license/source-saraiva/primelist)  
-![repo size](https://img.shields.io/github/repo-size/source-saraiva/primelist) 
-![last commit](https://img.shields.io/github/last-commit/source-saraiva/primelist)
+![license](https://img.shields.io/github/license/source-saraiva/primelist)  ![repo size](https://img.shields.io/github/repo-size/source-saraiva/primelist) ![last commit](https://img.shields.io/github/last-commit/source-saraiva/primelist)
 
 
 ## 🌐 Navigation
