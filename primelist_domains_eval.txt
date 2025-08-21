@@ -33,7 +33,6 @@
 0.0.0.0 click.googleanalytics.com
 
 # googleapis.com
-0.0.0.0 play-fe.googleapis.com
 0.0.0.0 play.googleapis.com
 
 # samsungadhub.com
