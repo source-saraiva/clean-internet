@@ -32,6 +32,10 @@
 # googleanalytics.com
 0.0.0.0 click.googleanalytics.com
 
+# googleapis.com
+0.0.0.0 play-fe.googleapis.com
+0.0.0.0 play.googleapis.com
+
 # samsungadhub.com
 0.0.0.0 samsungadhub.com
 
@@ -49,6 +53,7 @@
 0.0.0.0 stats.g.doubleclick.net
 0.0.0.0 ad.doubleclick.net
 0.0.0.0 static.doubleclick.net
+0.0.0.0 googleads.g.doubleclick.net
 
 # freshmarketer.com
 0.0.0.0 freshmarketer.com
@@ -166,7 +171,15 @@
 0.0.0.0 adfox.yandex.ru
 
 # apple.com
-api-adservices.apple.com
+0.0.0.0 api-adservices.apple.com
+
+# yovoads.com
+0.0.0.0 p6s01.yovoads.com
+0.0.0.0 cdn01.yovoads.com
+0.0.0.0 ev6.yovoads.com
+0.0.0.0 s6.yovoads.com
+0.0.0.0 cdn05.yovoads.com
+
 books-analytics-events.apple.com
 
 # yahooinc.com
