@@ -166,3 +166,6 @@ www.advertising.yahooinc.com
 # apple.com
 api-adservices.apple.com
 books-analytics-events.apple.com
+
+# yahooinc.com
+www.adtech.yahooinc.com
