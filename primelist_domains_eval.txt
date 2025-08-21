@@ -93,7 +93,6 @@ samsung-com.112.2o7.net
 0.0.0.0 metrics-dra.dt.hicloud.com
 0.0.0.0 grs.hicloud.com
 
-
 # twitter.com
 0.0.0.0 advertising.twitter.com
 0.0.0.0 static.ads-twitter.com
@@ -155,6 +154,9 @@ samsung-com.112.2o7.net
 0.0.0.0 udcm.yahoo.com
 0.0.0.0 analytics.query.yahoo.com
 
+# yahooinc.com
+www.advertising.yahooinc.com
+
 # yandex.ru
 0.0.0.0 appmetrica.yandex.ru
 0.0.0.0 adfstat.yandex.ru
@@ -164,5 +166,3 @@ samsung-com.112.2o7.net
 # apple.com
 api-adservices.apple.com
 books-analytics-events.apple.com
-
-#
