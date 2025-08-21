@@ -32,8 +32,9 @@
 # googleanalytics.com
 0.0.0.0 click.googleanalytics.com
 
-# googleapis.com
-0.0.0.0 play.googleapis.com
+# googleapis.com (google store)
+#0.0.0.0 play-fe.googleapis.com
+#0.0.0.0 play.googleapis.com
 
 # samsungadhub.com
 0.0.0.0 samsungadhub.com
