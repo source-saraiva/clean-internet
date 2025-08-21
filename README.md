@@ -53,7 +53,7 @@ Add the following lists to Pi-hole or other compatible blockers:
   https://raw.githubusercontent.com/source-saraiva/primelist/refs/heads/main/primelist_domains_eval.txt
   ```
 >[!IMPORTANT]
->**Do not use in production**
+>**Do not use in production - primelist_domains_eval.txt**
 
 ### IP Blocking
 To integrate the IPs into your firewall, you can create a script using curl or wget that runs via cron to update regularly:
@@ -133,7 +133,7 @@ Adicionar a seguinte lista ao Pi-hole ou outro bloqueador compatível:
   https://raw.githubusercontent.com/source-saraiva/primelist/refs/heads/main/primelist_domains_eval.txt
   ```
 >[!IMPORTANT]
->**Não usar em produção**
+>**Não usar em produção - primelist_domains_eval.txt**
 
 ### Bloqueio de IPs
 
