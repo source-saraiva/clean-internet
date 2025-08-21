@@ -52,6 +52,7 @@ Add the following lists to Pi-hole or other compatible blockers:
   ```
   https://raw.githubusercontent.com/source-saraiva/primelist/refs/heads/main/primelist_domains_eval.txt
   ```
+>[!WARNING]
 >**Do not use in production**
 
 ### IP Blocking
@@ -131,7 +132,8 @@ Adicionar a seguinte lista ao Pi-hole ou outro bloqueador compatível:
   ```
   https://raw.githubusercontent.com/source-saraiva/primelist/refs/heads/main/primelist_domains_eval.txt
   ```
-  >**Não usar em produção**
+>[!WARNING]
+>**Não usar em produção**
 
 ### Bloqueio de IPs
 
