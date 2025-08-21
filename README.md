@@ -1,104 +1,178 @@
-# Primelist  
-
-🌍 Languages / Idiomas / Langues / Idiomas  
-- [English](#-english) | [Português](#-português) | [Français](#-français) | [Español](#-español) 
-
----
-
-## 🌐 English  
-**Primelist – curated denylist for DNS security**
-
-Primelist is a curated hosts list that contains domains associated with adware, malware, and other unwanted content that need to be blocked.  
-By consolidating trusted sources and extending the list with newly discovered threats, Primelist helps protect your network privacy and security effectively.
-
-### How It Works  
-- We collect host entries from multiple trusted sources.  
-- Lists are intelligently merged and curated to remove redundancies and false positives.  
-- We actively discover and add new ad domains and unwanted hosts to enhance coverage.
-
-### Files  
-- **primelist_validation.txt** → Testing list where new updates and changes undergo validation.  
-- **primelist_stable.txt** → Once thoroughly tested, entries are promoted here for public use.
-
-### Contributing  
-The best way to contribute is by **pointing your devices or resolvers to our Public DNS Server -- 33.27.190.x**.  
-This allows us to gather usage metrics from real-world scenarios, helping us refine the list and detect new threats more effectively.
-
-Suggestions and feedback are always welcome.
-
-[Go up](#primelist)
+Excelente ideia 👍
+Assim fica fácil navegar entre as línguas no próprio GitHub.
+Montei o README em **Markdown completo**, com **menu de navegação no topo** e **links de retorno ao menu no final de cada secção**.
 
 ---
 
-## 🌐 Português  
-**Primelist – lista negra selecionada para segurança DNS**
+```markdown
+# primelist
 
-Primelist é uma lista de hosts selecionada que contém domínios associados a adware, malware e outros conteúdos indesejados que precisam ser bloqueados.  
-Ao consolidar fontes confiáveis e estender a lista com novas ameaças descobertas, o Primelist ajuda a proteger a privacidade e segurança da sua rede de forma eficaz.
-
-### Como Funciona  
-- Coletamos entradas de hosts de múltiplas fontes confiáveis.  
-- As listas são mescladas e selecionadas de forma inteligente para eliminar redundâncias e falsos positivos.  
-- Descobrimos ativamente e adicionamos novos domínios de publicidade e hosts indesejados para ampliar a cobertura.
-
-### Arquivos  
-- **primelist_validation.txt** → Lista de testes onde novas atualizações e alterações são validadas.  
-- **primelist_stable.txt** → Após testes rigorosos, as entradas são promovidas para uso público.
-
-### Contribuindo  
-A melhor forma de contribuir é **apontando seus dispositivos ou resolvedores para nosso Servidor DNS Público -- 33.27.190.x**.  
-Isso nos permite coletar métricas de uso em cenários reais, ajudando a refinar a lista e detectar novas ameaças com maior eficácia.
-
-Sugestões e feedback são sempre bem-vindos.
-
-[Voltar ao topo](#primelist)
+![latest release](https://img.shields.io/github/release/source-saraiva/primelist) 
+![license](https://img.shields.io/github/license/source-saraiva/primelist)  
+![repo size](https://img.shields.io/github/repo-size/source-saraiva/primelist) 
+![last commit](https://img.shields.io/github/last-commit/source-saraiva/primelist)
 
 ---
 
-## 🌐 Français  
-**Primelist – liste de blocage sélectionnée pour la sécurité DNS**
-
-Primelist est une liste d’hôtes sélectionnée contenant des domaines associés à des adwares, malwares et autres contenus indésirables à bloquer.  
-En consolidant des sources fiables et en étendant la liste avec de nouvelles menaces découvertes, Primelist aide à protéger efficacement la confidentialité et la sécurité de votre réseau.
-
-### Comment ça fonctionne  
-- Nous collectons les entrées d’hôtes provenant de plusieurs sources fiables.  
-- Les listes sont intelligemment fusionnées et sélectionnées pour supprimer les redondances et faux positifs.  
-- Nous découvrons activement et ajoutons de nouveaux domaines publicitaires et hôtes indésirables pour améliorer la couverture.
-
-### Fichiers  
-- **primelist_validation.txt** → Liste de test où les nouvelles mises à jour et modifications sont validées.  
-- **primelist_stable.txt** → Une fois rigoureusement testés, les entrées sont promues ici pour usage public.
-
-### Contribution  
-La meilleure façon de contribuer est de **configurer vos appareils ou résolveurs sur notre serveur DNS public -- 33.27.190.x**.  
-Cela nous permet de collecter des métriques d’utilisation dans des scénarios réels, aidant à affiner la liste et à détecter de nouvelles menaces plus efficacement.
-
-Suggestions et retours sont toujours les bienvenus.
-
-[Retour en haut](#primelist)
+## 🌐 Navigation
+[English](#-english) | [Português](#-português-pt) | [Français](#-français)
 
 ---
 
-## 🌐 Español  
-**Primelist – lista de bloqueo seleccionada para la seguridad DNS**
+## 🇬🇧 English
 
-Primelist es una lista de hosts seleccionada que contiene dominios asociados con adware, malware y otros contenidos no deseados que deben ser bloqueados.  
-Al consolidar fuentes confiables y extender la lista con nuevas amenazas descubiertas, Primelist ayuda a proteger eficazmente la privacidad y seguridad de su red.
+**primelist** is a curated collection of **domains, IP addresses, and phone numbers** used to strengthen security against ads, tracking, malware, and malicious actors.  
 
-### Cómo Funciona  
-- Recopilamos entradas de hosts de múltiples fuentes confiables.  
-- Las listas se fusionan y seleccionan inteligentemente para eliminar redundancias y falsos positivos.  
-- Descubrimos activamente y añadimos nuevos dominios publicitarios y hosts no deseados para ampliar la cobertura.
+### 📂 Contents
+- **primelist_domains.txt** — main list of domains to block (ads + tracking + malware).  
+- **primelist_domains_eval.txt** — evaluation list of domains under review before promotion to the main list.  
+- **primelist_ips.txt** — main list of IP addresses identified as bad actors (brute force, abuse, etc.).  
 
-### Archivos  
-- **primelist_validation.txt** → Lista de prueba donde se validan las nuevas actualizaciones y cambios.  
-- **primelist_stable.txt** → Una vez probadas a fondo, las entradas se promueven aquí para uso público.
+### ⚙️ How It Works
+- **Domains**: start with [StevenBlack/hosts](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts) as a base and extend with our own analysis. Domains are tested on our public DNS servers via the evaluation list before promotion.  
+- **IPs**: collected from brute-force attempts detected on our own and participant servers (mainly via *Fail2Ban*). Published with a **90-day retention policy**.  
 
-### Cómo Contribuir  
-La mejor manera de contribuir es **apuntando sus dispositivos o resolutores a nuestro Servidor DNS Público -- 33.27.190.x**.  
-Esto nos permite recopilar métricas de uso en escenarios reales, ayudándonos a perfeccionar la lista y detectar nuevas amenazas de manera más efectiva.
+### 🚀 How to Use
+- **Domains**  
+  Add to Pi-hole or compatible blockers:  
+```
 
-Sugerencias y comentarios son siempre bienvenidos.
+[https://raw.githubusercontent.com/source-saraiva/primelist/refs/heads/main/primelist\_domains.txt](https://raw.githubusercontent.com/source-saraiva/primelist/refs/heads/main/primelist_domains.txt)
 
-[Subir](#primelist)
+```
+Evaluation list:  
+```
+
+[https://raw.githubusercontent.com/source-saraiva/primelist/refs/heads/main/primelist\_domains\_eval.txt](https://raw.githubusercontent.com/source-saraiva/primelist/refs/heads/main/primelist_domains_eval.txt)
+
+````
+
+- **IPs**  
+Example for `firewalld`:  
+```bash
+URL="https://raw.githubusercontent.com/source-saraiva/primelist/refs/heads/main/primelist_ips.txt"
+curl -s $URL -o /tmp/primelist_ips.txt
+
+for ip in $(cat /tmp/primelist_ips.txt); do
+  sudo firewall-cmd --permanent --zone=access-denied --add-source=$ip
+done
+
+sudo firewall-cmd --reload
+````
+
+### 🤝 Contributing
+
+* Report new domains/IPs via issues.
+* Flag false positives to improve accuracy.
+* Submit pull requests with new lists.
+
+[⬆️ Back to top](#-navigation)
+
+---
+
+## 🇵🇹 Português (PT)
+
+**primelist** é uma colecção de **domínios, endereços IP e números de telefone** usada para reforçar a segurança contra anúncios, tracking, malware e actores maliciosos.
+
+### 📂 Conteúdo
+
+* **primelist\_domains.txt** — lista principal de domínios a bloquear (anúncios + tracking + malware).
+* **primelist\_domains\_eval.txt** — lista de domínios em avaliação antes de serem promovidos.
+* **primelist\_ips.txt** — lista principal de endereços IP considerados *bad actors* (ataques de força bruta, abuso, etc.).
+
+### ⚙️ Como Funciona
+
+* **Domínios**: base inicial em [StevenBlack/hosts](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts), estendida com análise própria. Os domínios passam pela lista de avaliação nos nossos servidores DNS públicos.
+* **IPs**: recolhidos de ataques de força bruta detectados em servidores próprios e de participantes (maioritariamente via *Fail2Ban*). Publicados com **retenção de 90 dias**.
+
+### 🚀 Como Usar
+
+* **Domínios**
+  Adicionar ao Pi-hole ou bloqueadores compatíveis:
+
+  ```
+  https://raw.githubusercontent.com/source-saraiva/primelist/refs/heads/main/primelist_domains.txt
+  ```
+
+  Lista de avaliação:
+
+  ```
+  https://raw.githubusercontent.com/source-saraiva/primelist/refs/heads/main/primelist_domains_eval.txt
+  ```
+
+* **IPs**
+  Exemplo para `firewalld`:
+
+  ```bash
+  URL="https://raw.githubusercontent.com/source-saraiva/primelist/refs/heads/main/primelist_ips.txt"
+  curl -s $URL -o /tmp/primelist_ips.txt
+
+  for ip in $(cat /tmp/primelist_ips.txt); do
+    sudo firewall-cmd --permanent --zone=access-denied --add-source=$ip
+  done
+
+  sudo firewall-cmd --reload
+  ```
+
+### 🤝 Contribuições
+
+* Reportar novos domínios/IPs via issues.
+* Indicar falsos positivos para reduzir bloqueios indevidos.
+* Submeter *pull requests* com listas adicionais.
+
+[⬆️ Voltar ao topo](#-navigation)
+
+---
+
+## 🇫🇷 Français
+
+**primelist** est une collection de **domaines, adresses IP et numéros de téléphone** utilisée pour renforcer la sécurité contre les publicités, le tracking, les malwares et les acteurs malveillants.
+
+### 📂 Contenu
+
+* **primelist\_domains.txt** — liste principale des domaines à bloquer (publicités + tracking + malwares).
+* **primelist\_domains\_eval.txt** — liste d’évaluation des domaines en cours de validation.
+* **primelist\_ips.txt** — liste principale des adresses IP considérées comme *bad actors* (attaques par force brute, abus, etc.).
+
+### ⚙️ Fonctionnement
+
+* **Domaines** : base sur [StevenBlack/hosts](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts), enrichie par notre propre analyse. Les domaines passent par la liste d’évaluation testée sur nos serveurs DNS publics.
+* **IPs** : collectées à partir d’attaques par force brute détectées sur nos serveurs et ceux des participants (principalement via *Fail2Ban*). Publiées avec une **politique de rétention de 90 jours**.
+
+### 🚀 Utilisation
+
+* **Domaines**
+  À ajouter dans Pi-hole ou tout autre bloqueur compatible :
+
+  ```
+  https://raw.githubusercontent.com/source-saraiva/primelist/refs/heads/main/primelist_domains.txt
+  ```
+
+  Liste d’évaluation :
+
+  ```
+  https://raw.githubusercontent.com/source-saraiva/primelist/refs/heads/main/primelist_domains_eval.txt
+  ```
+
+* **IPs**
+  Exemple pour `firewalld` :
+
+  ```bash
+  URL="https://raw.githubusercontent.com/source-saraiva/primelist/refs/heads/main/primelist_ips.txt"
+  curl -s $URL -o /tmp/primelist_ips.txt
+
+  for ip in $(cat /tmp/primelist_ips.txt); do
+    sudo firewall-cmd --permanent --zone=access-denied --add-source=$ip
+  done
+
+  sudo firewall-cmd --reload
+  ```
+
+### 🤝 Contribuer
+
+* Signaler de nouveaux domaines/IPs via issues.
+* Rapporter les faux positifs pour améliorer la précision.
+* Proposer des *pull requests* avec de nouvelles listes.
+
+[⬆️ Retour en haut](#-navigation)
+
