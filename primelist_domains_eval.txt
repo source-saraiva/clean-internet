@@ -172,6 +172,7 @@
 
 # apple.com
 0.0.0.0 api-adservices.apple.com
+0.0.0.0 books-analytics-events.apple.com
 
 # yovoads.com
 0.0.0.0 p6s01.yovoads.com
@@ -180,7 +181,5 @@
 0.0.0.0 s6.yovoads.com
 0.0.0.0 cdn05.yovoads.com
 
-books-analytics-events.apple.com
-
 # yahooinc.com
-www.adtech.yahooinc.com
+0.0.0.0 www.adtech.yahooinc.com
