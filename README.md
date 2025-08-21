@@ -4,7 +4,7 @@
 
 
 ## 🌐 Navigation
-[English](#-english) | [Português](#-português-pt) | [Français](#-français)
+[English](#-english) | [Português](#-português) | [Français](#-français)
 
 ---
 
