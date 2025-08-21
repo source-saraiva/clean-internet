@@ -11,7 +11,7 @@
 
 
 ## 🌍 English
-Primelists is a collection of lists of domains, IP addresses, and phone numbers used to enhance security against ads, tracking, malware, and malicious actors.
+Primelists is a collaborative collection of lists of domains, IP addresses, and phone numbers used to enhance security against ads, tracking, malware, and malicious actors.
 
 This repository provides curated lists that can be used in solutions such as Pi-hole, firewalls (firewalld, iptables), intrusion detection systems, and other filtering environments.
 
@@ -89,7 +89,7 @@ If you want to contribute:
 
 
 ## 🌍 Português
-**Primelists** é uma colecção de listas de **domínios, endereços IP e números de telefone** usados para reforçar a segurança contra anúncios, tracking, malware e actores maliciosos.
+**Primelists** é uma colecção colaborativa de listas de **domínios, endereços IP e números de telefone** usados para reforçar a segurança contra anúncios, tracking, malware e actores maliciosos.
 
 Este repositório disponibiliza listas curadas que podem ser usadas em soluções como **Pi-hole**, firewalls (`firewalld`, `iptables`), sistemas de deteção de intrusões e outros ambientes de filtragem.
 
