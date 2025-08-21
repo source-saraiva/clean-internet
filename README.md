@@ -51,7 +51,7 @@ Add the following lists to Pi-hole or other compatible blockers:
   ```
   https://raw.githubusercontent.com/source-saraiva/primelist/refs/heads/main/primelist_domains_eval.txt
   ```
-**Do not use in production**
+>**Do not use in production**
 
 ### IP Blocking
 To integrate the IPs into your firewall, you can create a script using curl or wget that runs via cron to update regularly:
