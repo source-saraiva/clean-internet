@@ -156,6 +156,7 @@ samsung-com.112.2o7.net
 
 # yahooinc.com
 www.advertising.yahooinc.com
+www.adtech.yahooinc.com
 
 # yandex.ru
 0.0.0.0 appmetrica.yandex.ru
