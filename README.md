@@ -12,8 +12,8 @@ These are the **curated and production-ready lists**, safe for daily use.
 
 - **`primelist_domains`**  
   Main domain blocklist containing advertising, tracking, and malware domains.  
-  Aggregated from StevenBlack/hosts and other trusted sources.  
-  Optimised for stability, with minimal false positives.  
+  Aggregated from StevenBlack/hosts and other trusted sources, plus our contribution with additional curation and validation by our team.  
+  Optimised for stability, with minimal false positives.
 
 - **`primelist_badactors`**  
   IP blocklist of known malicious hosts (SSH brute-force, scanners, abuse sources).  
