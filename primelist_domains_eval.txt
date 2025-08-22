@@ -1,120 +1,120 @@
-# linkedin.com
+# [linkedin.com]
 0.0.0.0 ads.linkedin.com
 0.0.0.0 analytics.pointdrive.linkedin.com
 
-# amazon.com
+# [amazon.com]
 0.0.0.0 advertising-api-eu.amazon.com
 
-# amazonaws.com
+# [amazonaws.com]
 0.0.0.0 affiliationjs.s3.amazonaws.com
 0.0.0.0 adtago.s3.amazonaws.com
 0.0.0.0 analyticsengine.s3.amazonaws.com
 0.0.0.0 analytics.s3.amazonaws.com
 0.0.0.0 advice-ads.s3.amazonaws.com
 
-# google.com
+# [google.com]
 0.0.0.0 adservice.google.com
 0.0.0.0 analytics.google.com
 
-# googlesyndication.com
+# [googlesyndication.com]
 0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 afs.googlesyndication.com
 0.0.0.0 tpc.googlesyndication.com
 
-# googleadservices.com
+# [googleadservices.com]
 0.0.0.0 googleadservices.com
 0.0.0.0 pagead2.googleadservices.com
 
-# google-analytics.com
+# [google-analytics.com]
 0.0.0.0 google-analytics.com
 0.0.0.0 ssl.google-analytics.com
 
-# googleanalytics.com
+# [googleanalytics.com]
 0.0.0.0 click.googleanalytics.com
 
-# googleapis.com (breaks google store)
+# [googleapis.com (breaks google store)]
 #0.0.0.0 play-fe.googleapis.com
 #0.0.0.0 play.googleapis.com
 
-# samsungadhub.com
+# [samsungadhub.com]
 0.0.0.0 samsungadhub.com
 
-# 2o7.net
+# [2o7.net]
 0.0.0.0 samsung-com.112.2o7.net
 
-# oneplus.cn
+# [oneplus.cn]
 0.0.0.0 analytics.oneplus.cn
 
-# hotjar-analytics.com
+# [hotjar-analytics.com]
 0.0.0.0 hotjar-analytics.com
 
-# doubleclick.net
+# [doubleclick.net]
 0.0.0.0 mediavisor.doubleclick.net
 0.0.0.0 stats.g.doubleclick.net
 0.0.0.0 ad.doubleclick.net
 0.0.0.0 static.doubleclick.net
 0.0.0.0 googleads.g.doubleclick.net
 
-# freshmarketer.com
+# [freshmarketer.com]
 0.0.0.0 freshmarketer.com
 0.0.0.0 fwtracks.freshmarketer.com
 0.0.0.0 claritybt.freshmarketer.com
 0.0.0.0 fwtracks.freshmarketer.com
 
-# luckyorange.com
+# [luckyorange.com]
 0.0.0.0 cdn.luckyorange.com
 0.0.0.0 w1.luckyorange.com
 0.0.0.0 cs.luckyorange.net
 0.0.0.0 realtime.luckyorange.com
 0.0.0.0 api.luckyorange.com
 
-# bugsnag.com
+# [bugsnag.com]
 0.0.0.0 notify.bugsnag.com
 0.0.0.0 sessions.bugsnag.com
 0.0.0.0 api.bugsnag.com
 0.0.0.0 app.bugsnag.com
 
-# sentry-cdn.com
+# [sentry-cdn.com]
 0.0.0.0 browser.sentry-cdn.com
 0.0.0.0 browser.sentry-cdn.com
 
-# getsentry.com
+# [getsentry.com]
 0.0.0.0 app.getsentry.com
 
-# facebook.com
+# [facebook.com]
 0.0.0.0 analytics.facebook.com
 0.0.0.0 ads.facebook.com
 
-# yandex.com
+# [yandex.com]
 0.0.0.0 appmetrica.yandex.com
 
-# xiaomi.com
+# [xiaomi.com]
 0.0.0.0 data.mistat.india.xiaomi.com
 0.0.0.0 data.mistat.rus.xiaomi.com
 
-# hicloud.com
+# [hicloud.com]
 0.0.0.0 metrics5.data.hicloud.com
 0.0.0.0 logservice.hicloud.com
 0.0.0.0 metrics2.data.hicloud.com
 0.0.0.0 metrics-dra.dt.hicloud.com
 0.0.0.0 grs.hicloud.com
 
-# twitter.com
+# [twitter.com]
 0.0.0.0 advertising.twitter.com
 0.0.0.0 static.ads-twitter.com
 0.0.0.0 ads-api.twitter.com
 
-# adcolony.com
+# [adcolony.com]
 0.0.0.0 ads30.adcolony.com
 0.0.0.0 adc3-launch.adcolony.com
 0.0.0.0 events3alt.adcolony.com
 0.0.0.0 wd.adcolony.com
 
-# media.net
+# [media.net]
 0.0.0.0 static.media.net 
 0.0.0.0 media.net 
 
-# hotjar.com
+# [hotjar.com]
 0.0.0.0 adm.hotjar.com
 0.0.0.0 identify.hotjar.com
 0.0.0.0 insights.hotjar.com
@@ -122,26 +122,26 @@
 0.0.0.0 surveys.hotjar.com
 0.0.0.0 careers.hotjar.com
 
-# mouseflow.com
+# [mouseflow.com]
 0.0.0.0 mouseflow.com
 0.0.0.0 cdn.mouseflow.com
 0.0.0.0 02.mouseflow.com
 0.0.0.0 gtm.mouseflow.com
 0.0.0.0 cdn-test.mouseflow.com
 
-# wp.com
+# [wp.com]
 0.0.0.0 stats.wp.com
 
-# pinterest.com
+# [pinterest.com]
 0.0.0.0 ads.pinterest.com
 0.0.0.0 log.pinterest.com
 0.0.0.0 analytics.pinterest.com
 0.0.0.0 trk.pinterest.com
 
-# youtube.com
+# [youtube.com]
 0.0.0.0 ads.youtube.com
 
-# tiktok.com
+# [tiktok.com]
 0.0.0.0 ads-api.tiktok.com
 0.0.0.0 analytics.tiktok.com
 0.0.0.0 ads-sg.tiktok.com
@@ -149,10 +149,10 @@
 0.0.0.0 business-api.tiktok.com
 0.0.0.0 ads.tiktok.com
 
-# byteoversea.com
+# [byteoversea.com]
 0.0.0.0 log.byteoversea.com
 
-# yahoo.com
+# [yahoo.com]
 0.0.0.0 ads.yahoo.com
 0.0.0.0 analytics.yahoo.com
 0.0.0.0 geo.yahoo.com
@@ -160,26 +160,26 @@
 0.0.0.0 udcm.yahoo.com
 0.0.0.0 analytics.query.yahoo.com
 
-# yahooinc.com
+# [yahooinc.com]
 0.0.0.0 www.advertising.yahooinc.com
 0.0.0.0 www.adtech.yahooinc.com
 
-# yandex.ru
+# [yandex.ru]
 0.0.0.0 appmetrica.yandex.ru
 0.0.0.0 adfstat.yandex.ru
 0.0.0.0 metrika.yandex.ru
 0.0.0.0 adfox.yandex.ru
 
-# apple.com
+# [apple.com]
 0.0.0.0 api-adservices.apple.com
 0.0.0.0 books-analytics-events.apple.com
 
-# yovoads.com
+# [yovoads.com]
 0.0.0.0 p6s01.yovoads.com
 0.0.0.0 cdn01.yovoads.com
 0.0.0.0 ev6.yovoads.com
 0.0.0.0 s6.yovoads.com
 0.0.0.0 cdn05.yovoads.com
 
-# yahooinc.com
+# [yahooinc.com]
 0.0.0.0 www.adtech.yahooinc.com
