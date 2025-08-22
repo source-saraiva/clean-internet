@@ -1,6 +1,6 @@
 # 🛡️ Primelist
 
-Curated domain and IP blocklists for use in DNS blockers, firewalls, and proxies.  
+Curated hosts and IP blocklists for use in DNS blockers, firewalls, and proxies.  
 Primelist is maintained through aggregation of trusted sources and contributions from our own infrastructure (including hosts running Fail2Ban, which automatically submit abusive IPs).
 
 ---
@@ -59,5 +59,9 @@ Evaluation / Experimental        --->    Stable (Default)
 `primelist_domains_eval`         --->    `primelist_domains`  
 `primelist_badactors_eval`       --->    `primelist_badactors`  
 
-### 📊 Promotion Scheme  
+---
 
+### 🚀 Join Us  
+
+Primelist is built with the community — by sysadmins, developers, and users like you.  
+🛡️ **Together, we can maintain a cleaner, safer internet. Contribute today!**
