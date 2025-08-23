@@ -98,6 +98,7 @@
 0.0.0.0 metrics2.data.hicloud.com
 0.0.0.0 metrics-dra.dt.hicloud.com
 0.0.0.0 grs.hicloud.com
+0.0.0.0 metrics.data.hicloud.com
 
 # [twitter.com]
 0.0.0.0 advertising.twitter.com
