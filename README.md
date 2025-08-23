@@ -52,12 +52,12 @@ https://raw.githubusercontent.com/source-saraiva/primelist/refs/heads/main/prime
 - The domains will be blocked at DNS level.  
 - Use `primelist_domains.txt` for stable blocking
 #### 🔹 Hosts File (Workstations or Servers)  
-- Download and append to `/etc/hosts`:  
+- Download and append to `/etc/hosts`, install curl before hand:  
 ```bash
 curl -s https://raw.githubusercontent.com/source-saraiva/primelist/refs/heads/main/primelist_domains.txt \
   | sudo tee -a /etc/hosts > /dev/null
  ```
-- Flush DNS cache after updating (systemd-resolve --flush-caches or sudo service dnsmasq restart).
+- Flush DNS cache after updating (if needed).
 
 
 ---
