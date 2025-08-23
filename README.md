@@ -52,7 +52,7 @@ https://raw.githubusercontent.com/source-saraiva/primelist/refs/heads/main/prime
 - The domains will be blocked at DNS level.  
 - Use `primelist_domains.txt` for stable blocking
 #### 🔹 Hosts File (Workstations or Servers)  
-- Download the file and append its contents to `/etc/hosts`. Make sure to install curl first if it is not already installed."
+- Download the file and append its contents to `/etc/hosts`. Make sure to install curl first if it is not already installed.
 ```bash
 curl -s https://raw.githubusercontent.com/source-saraiva/primelist/refs/heads/main/primelist_domains.txt \
   | sudo tee -a /etc/hosts > /dev/null
