@@ -54,7 +54,7 @@ https://raw.githubusercontent.com/source-saraiva/primelist/refs/heads/main/prime
 #### 🔹 Hosts File (Workstations or Servers)  
 - Download and append to `/etc/hosts`:  
 ```bash
-curl -s https://raw.githubusercontent.com/source-saraiva/primelist/main/primelist_domains \
+curl -s https://raw.githubusercontent.com/source-saraiva/primelist/refs/heads/main/primelist_domains.txt \
   | sudo tee -a /etc/hosts > /dev/null
  ```
 - Flush DNS cache after updating (systemd-resolve --flush-caches or sudo service dnsmasq restart).
