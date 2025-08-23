@@ -47,7 +47,7 @@ Depending on your environment, you can integrate Primelist in several ways:
 #### 🔹 Pi-hole / AdGuard Home (DNS Blockers)  
 - Add the raw list URL directly under **Blocklists**:
 ```bash
-https://github.com/source-saraiva/primelist/blob/main/primelist_domains.txt
+https://raw.githubusercontent.com/source-saraiva/primelist/refs/heads/main/primelist_domains.txt
 ```
 - The domains will be blocked at DNS level.  
 - Use `primelist_domains.txt` for stable blocking
