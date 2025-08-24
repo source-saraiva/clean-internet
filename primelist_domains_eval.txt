@@ -1,7 +1,13 @@
 
 
 
-# ==== [TESTING] ===
+# ==== [NEW ENTRIES] ===
+
+# [quintelligence.com]
+log2.quintelligence.com
+
+# [com.ph]
+adcontent2.allaccess.com.ph
 
 # [onezerohosting.com]
 ads.onezerohosting.com
@@ -47,7 +53,7 @@ taobaoafp.allyes.cn
 ad.allstar.cz
 
 
-# ==== [WORKING] ===
+# ==== [OLD ENTRIES] ===
 
 # [linkedin.com]
 0.0.0.0 ads.linkedin.com
@@ -71,6 +77,7 @@ ad.allstar.cz
 0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 afs.googlesyndication.com
 0.0.0.0 tpc.googlesyndication.com
+0.0.0.0 domains.googlesyndication.com
 
 # [googleadservices.com]
 0.0.0.0 googleadservices.com
