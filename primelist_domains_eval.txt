@@ -1,3 +1,54 @@
+
+
+
+# ==== [TESTING] ===
+
+# [onezerohosting.com]
+ads.onezerohosting.com
+
+# [next2news.com]
+ad.next2news.com
+
+# [networkvision.net]
+adserver.networkvision.net
+
+# [amna.gr]
+adserver.amna.gr
+
+# [amateri.cz]
+banner.amateri.cz
+
+# [d.dailycaller.com]
+ox-d.dailycaller.com
+
+# [daclips.in]
+ads.daclips.in
+
+# [cybertechdev.com]
+banner.cybertechdev.com
+
+# [crosswinds.net]
+ads.crosswinds.net
+
+# [cpxadroit.com]
+adserving.cpxadroit.com
+
+# [allyes.com]
+smarttrade.allyes.com
+sroomafp.allyes.com
+smarttrade.allyes.com
+demoafp.allyes.com
+bokee.allyes.com
+
+# [allyes.cn]
+taobaoafp.allyes.cn
+
+# [allstar.cz]
+ad.allstar.cz
+
+
+# ==== [WORKING] ===
+
 # [linkedin.com]
 0.0.0.0 ads.linkedin.com
 0.0.0.0 analytics.pointdrive.linkedin.com
