@@ -3,6 +3,11 @@
 
 # ==== [NEW ENTRIES] ===
 
+# [adtrafficquality.google]
+ep1.adtrafficquality.google
+ep2.adtrafficquality.google
+
+
 # [quintelligence.com]
 log2.quintelligence.com
 
