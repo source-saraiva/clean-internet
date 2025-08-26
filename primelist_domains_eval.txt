@@ -1,16 +1,4 @@
 
-
-
-# ==== [NEW ENTRIES] ===
-
-# [spotify.com]
-0.0.0.0 adeventtracker.spotify.com
-0.0.0.0 ads-fa.spotify.com
-0.0.0.0 ads.spotify.com
-#0.0.0.0 spclient.wg.spotify.com # cant login to spotify
-0.0.0.0 gos-api.gos-gsp.io
-
-
 # [measurement.com]
 0.0.0.0 app-measurement.com
 
@@ -73,7 +61,7 @@ taobaoafp.allyes.cn
 ad.allstar.cz
 
 
-# ==== [OLD ENTRIES] ===
+
 
 # [linkedin.com]
 0.0.0.0 ads.linkedin.com
