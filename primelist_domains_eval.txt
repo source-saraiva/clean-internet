@@ -3,6 +3,20 @@
 
 # ==== [NEW ENTRIES] ===
 
+# [spotify.com]
+0.0.0.0 adeventtracker.spotify.com
+0.0.0.0 ads-fa.spotify.com
+0.0.0.0 ads.spotify.com
+0.0.0.0 spclient.wg.spotify.com # note may break
+
+
+# [measurement.com]
+0.0.0.0 app-measurement.com
+
+# [mozilla.org]
+0.0.0.0 incoming.telemetry.mozilla.org
+
+
 # [adtrafficquality.google]
 ep1.adtrafficquality.google
 ep2.adtrafficquality.google
@@ -117,6 +131,8 @@ ad.allstar.cz
 0.0.0.0 ad.doubleclick.net
 0.0.0.0 static.doubleclick.net
 0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 pubads.g.doubleclick.net
+0.0.0.0 securepubads.g.doubleclick.net
 
 # [freshmarketer.com]
 0.0.0.0 freshmarketer.com
