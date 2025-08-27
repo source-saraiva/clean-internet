@@ -1,15 +1,17 @@
 
+
+	
+
+
 # [measurement.com]
 0.0.0.0 app-measurement.com
 
 # [mozilla.org]
 0.0.0.0 incoming.telemetry.mozilla.org
 
-
 # [adtrafficquality.google]
 ep1.adtrafficquality.google
 ep2.adtrafficquality.google
-
 
 # [quintelligence.com]
 log2.quintelligence.com
@@ -59,9 +61,6 @@ taobaoafp.allyes.cn
 
 # [allstar.cz]
 ad.allstar.cz
-
-
-
 
 # [linkedin.com]
 0.0.0.0 ads.linkedin.com
@@ -252,3 +251,10 @@ ad.allstar.cz
 
 # [yahooinc.com]
 0.0.0.0 www.adtech.yahooinc.com
+
+# [googlevideo.com]
+0.0.0.0 rr1---sn-woc7knes.googlevideo.com
+0.0.0.0 rr2---sn-woc7knez.googlevideo.com
+0.0.0.0 rr3---sn-woc7knel.googlevideo.com
+0.0.0.0 rr4---sn-woc7knez.googlevideo.com
+0.0.0.0 rr5---sn-woc7knez.googlevideo.com
