@@ -27,6 +27,9 @@
 0.0.0.0 rr2---sn-woc7kne7.googlevideo.com
 0.0.0.0 rr1---sn-woc7kn7r.googlevideo.com
 0.0.0.0 rr1---sn-woc7knel.googlevideo.com
+0.0.0.0 rr1---sn-0opuxa5v-a5ql.googlevideo.com
+0.0.0.0 rr2---sn-0opuxa5v-a5ql.googlevideo.com
+0.0.0.0 rr2---sn-0opuxa5v-a5qs.googlevideo.com
 
 
 #ref:https://github.com/tdgomes/Ads-Youtube-PT/blob/master/youtubeads.txt
