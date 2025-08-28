@@ -1,8 +1,6 @@
 
 
 
-
-
 # [2025-08-28]
 0.0.0.0 rr3---sn-woc7kn7r.googlevideo.com
 0.0.0.0 rr2---sn-u8j5cv5obva5-a5qs.googlevideo.com
@@ -40,6 +38,7 @@
 0.0.0.0 rr5---sn-4g5lznls.googlevideo.com
 0.0.0.0 rr2---sn-u8j5cv5obva5-a5qs.gvt1.com
 0.0.0.0 rr1---sn-u8j5cv5obva5-a5qs.gvt1.com
+0.0.0.0 r8---sn-pmcg-4vgs.googlevideo.com
 
 
 #ref:https://github.com/tdgomes/Ads-Youtube-PT/blob/master/youtubeads.txt
@@ -17955,8 +17954,8 @@ ad.allstar.cz
 0.0.0.0 wd.adcolony.com
 
 # [media.net]
-0.0.0.0 static.media.net 
-0.0.0.0 media.net 
+0.0.0.0 static.media.net
+0.0.0.0 media.net
 
 # [hotjar.com]
 0.0.0.0 adm.hotjar.com
