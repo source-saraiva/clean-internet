@@ -4,6 +4,13 @@
 
 
 # [2025-08-28]
+0.0.0.0 rr2---sn-u8j5cv5obva5-a5qs.googlevideo.com
+0.0.0.0 rr1---sn-u8j5cv5obva5-a5qs.googlevideo.com	
+0.0.0.0 rr5---sn-q4fzen7y.googlevideo.com
+0.0.0.0 r1---sn-25g5u0no5-a5ql.googlevideo.com
+
+
+
 #ref:https://github.com/tdgomes/Ads-Youtube-PT/blob/master/youtubeads.txt
 r1---sn-25ge7ns7.googlevideo.com
 r1---sn-25ge7nsd.googlevideo.com
