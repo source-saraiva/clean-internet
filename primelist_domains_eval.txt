@@ -39,6 +39,10 @@
 0.0.0.0 rr2---sn-u8j5cv5obva5-a5qs.gvt1.com
 0.0.0.0 rr1---sn-u8j5cv5obva5-a5qs.gvt1.com
 0.0.0.0 r8---sn-pmcg-4vgs.googlevideo.com
+0.0.0.0 rr1---sn-0opuxa5v-a5qe.googlevideo.com
+0.0.0.0 r7---sn-pmcg-4vgs.googlevideo.com
+0.0.0.0 rr2---sn-0opuxa5v-a5qs.googlevideo.com
+ 
 
 
 #ref:https://github.com/tdgomes/Ads-Youtube-PT/blob/master/youtubeads.txt
