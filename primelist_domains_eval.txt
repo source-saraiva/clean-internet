@@ -2,7 +2,7 @@
 
 
 # [2025-08-28]
-0.0.0.0 rr3---sn-woc7kn7r.googlevideo.com
+#0.0.0.0 rr3---sn-woc7kn7r.googlevideo.com #breaks esound app playback
 #0.0.0.0 rr2---sn-u8j5cv5obva5-a5qs.googlevideo.com #breaks esound app playback
 #0.0.0.0 rr1---sn-u8j5cv5obva5-a5qs.googlevideo.com #breaks esound app playback
 0.0.0.0 rr5---sn-q4fzen7y.googlevideo.com
@@ -13,7 +13,7 @@
 0.0.0.0 rr1---sn-4g5edndr.googlevideo.com
 0.0.0.0 rr1---sn-4g5lzne6.googlevideo.com
 0.0.0.0 rr4---sn-woc7kn7y.googlevideo.com
-0.0.0.0 rr5---sn-woc7kne7.googlevideo.com
+#0.0.0.0 rr5---sn-woc7kne7.googlevideo.com #breaks esound app playback
 0.0.0.0 rr2---sn-woc7kn7r.googlevideo.com
 0.0.0.0 rr3---sn-5hne6n6e.googlevideo.com
 0.0.0.0 rr1---sn-woc7kne7.googlevideo.com
@@ -17771,7 +17771,7 @@ rr2---sn-n4v7snl7.googlevideo.com
 # [2025-08-27]	
 0.0.0.0 ad.zanox.com
 0.0.0.0 rr1---sn-woc7knes.googlevideo.com
-0.0.0.0 rr2---sn-woc7knez.googlevideo.com
+#0.0.0.0 rr2---sn-woc7knez.googlevideo.com #breaks esound app playback
 0.0.0.0 rr3---sn-woc7knel.googlevideo.com
 0.0.0.0 rr4---sn-woc7knez.googlevideo.com
 0.0.0.0 rr5---sn-woc7knez.googlevideo.com
