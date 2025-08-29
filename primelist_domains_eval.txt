@@ -1,5 +1,6 @@
 
-
+# [2025-08-29]
+0.0.0.0 heads-fa-tls13.spotifycdn.com
 
 # [2025-08-28]
 #0.0.0.0 rr3---sn-woc7kn7r.googlevideo.com #breaks esound app playback
