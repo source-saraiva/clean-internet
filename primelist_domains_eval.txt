@@ -31,13 +31,13 @@
 0.0.0.0 rr2---sn-0opuxa5v-a5qe.googlevideo.com
 0.0.0.0 rr1---sn-0opuxa5v-a5qs.googlevideo.com
 0.0.0.0 rr15---sn-pmcg-4vgs.googlevideo.com
-0.0.0.0 rr5---sn-woc7kne7.gvt1.com
+#0.0.0.0 rr5---sn-woc7kne7.gvt1.com          #blocks playstore apps instalation
 0.0.0.0 r4---sn-woc7kn7r.googlevideo.com
 0.0.0.0 r5---sn-woc7kn7y.googlevideo.com
-0.0.0.0 rr3---sn-woc7knel.gvt1.com
-0.0.0.0 rr5---sn-4g5lznls.googlevideo.com
-0.0.0.0 rr2---sn-u8j5cv5obva5-a5qs.gvt1.com
-0.0.0.0 rr1---sn-u8j5cv5obva5-a5qs.gvt1.com
+#0.0.0.0 rr3---sn-woc7knel.gvt1.com          #blocks playstore apps instalation
+0.0.0.0 rr5---sn-4g5lznls.googlevideo.com    
+#0.0.0.0 rr2---sn-u8j5cv5obva5-a5qs.gvt1.com #blocks playstore apps instalation
+#0.0.0.0 rr1---sn-u8j5cv5obva5-a5qs.gvt1.com #blocks playstore apps instalation
 0.0.0.0 r8---sn-pmcg-4vgs.googlevideo.com
 0.0.0.0 rr1---sn-0opuxa5v-a5qe.googlevideo.com
 0.0.0.0 r7---sn-pmcg-4vgs.googlevideo.com
