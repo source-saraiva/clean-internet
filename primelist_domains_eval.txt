@@ -3,49 +3,6 @@
 0.0.0.0 heads-fa-tls13.spotifycdn.com
 
 # [2025-08-28]
-#0.0.0.0 rr3---sn-woc7kn7r.googlevideo.com #breaks esound app playback
-#0.0.0.0 rr2---sn-u8j5cv5obva5-a5qs.googlevideo.com #breaks esound app playback
-#0.0.0.0 rr1---sn-u8j5cv5obva5-a5qs.googlevideo.com #breaks esound app playback
-0.0.0.0 rr5---sn-q4fzen7y.googlevideo.com
-0.0.0.0 rr5---sn-woc7kn7r.googlevideo.com
-0.0.0.0 r1---sn-25g5u0no5-a5ql.googlevideo.com
-0.0.0.0 rr5---sn-woc7kn7y.googlevideo.com
-0.0.0.0 rr5---sn-woc7knes.googlevideo.com
-0.0.0.0 rr1---sn-4g5edndr.googlevideo.com
-0.0.0.0 rr1---sn-4g5lzne6.googlevideo.com
-0.0.0.0 rr4---sn-woc7kn7y.googlevideo.com
-#0.0.0.0 rr5---sn-woc7kne7.googlevideo.com #breaks esound app playback
-0.0.0.0 rr2---sn-woc7kn7r.googlevideo.com
-0.0.0.0 rr3---sn-5hne6n6e.googlevideo.com
-0.0.0.0 rr1---sn-woc7kne7.googlevideo.com
-0.0.0.0 rr2---sn-woc7knes.googlevideo.com
-0.0.0.0 r3---sn-woc7knel.googlevideo.com
-0.0.0.0 r5---sn-woc7knez.googlevideo.com
-0.0.0.0 rr5---sn-woc7knel.googlevideo.com
-#0.0.0.0 rr4---sn-woc7kn7r.googlevideo.com #blocks normal video playback (Angola)
-0.0.0.0 rr2---sn-woc7kne7.googlevideo.com
-0.0.0.0 rr1---sn-woc7kn7r.googlevideo.com
-0.0.0.0 rr1---sn-woc7knel.googlevideo.com
-0.0.0.0 rr1---sn-0opuxa5v-a5ql.googlevideo.com
-0.0.0.0 rr2---sn-0opuxa5v-a5ql.googlevideo.com
-0.0.0.0 rr2---sn-0opuxa5v-a5qs.googlevideo.com
-0.0.0.0 rr2---sn-0opuxa5v-a5qe.googlevideo.com
-0.0.0.0 rr1---sn-0opuxa5v-a5qs.googlevideo.com
-0.0.0.0 rr15---sn-pmcg-4vgs.googlevideo.com
-#0.0.0.0 rr5---sn-woc7kne7.gvt1.com          #blocks playstore apps instalation
-0.0.0.0 r4---sn-woc7kn7r.googlevideo.com
-0.0.0.0 r5---sn-woc7kn7y.googlevideo.com
-#0.0.0.0 rr3---sn-woc7knel.gvt1.com          #blocks playstore apps instalation
-0.0.0.0 rr5---sn-4g5lznls.googlevideo.com    
-#0.0.0.0 rr2---sn-u8j5cv5obva5-a5qs.gvt1.com #blocks playstore apps instalation
-#0.0.0.0 rr1---sn-u8j5cv5obva5-a5qs.gvt1.com #blocks playstore apps instalation
-0.0.0.0 r8---sn-pmcg-4vgs.googlevideo.com
-0.0.0.0 rr1---sn-0opuxa5v-a5qe.googlevideo.com
-0.0.0.0 r7---sn-pmcg-4vgs.googlevideo.com
-0.0.0.0 rr2---sn-0opuxa5v-a5qs.googlevideo.com
- 
-
-
 #ref:https://github.com/tdgomes/Ads-Youtube-PT/blob/master/youtubeads.txt
 r1---sn-25ge7ns7.googlevideo.com
 r1---sn-25ge7nsd.googlevideo.com
@@ -17771,11 +17728,7 @@ rr2---sn-n4v7snl7.googlevideo.com
 
 # [2025-08-27]	
 0.0.0.0 ad.zanox.com
-#0.0.0.0 rr1---sn-woc7knes.googlevideo.com
-#0.0.0.0 rr2---sn-woc7knez.googlevideo.com #breaks esound app playback
-#0.0.0.0 rr3---sn-woc7knel.googlevideo.com
-#0.0.0.0 rr4---sn-woc7knez.googlevideo.com
-#0.0.0.0 rr5---sn-woc7knez.googlevideo.com #blocks youtube playback
+
 
 
 #======= [CHANGED TO ORGANIZE BY ADDED DATE; DOMAIN SORTING WILL HAPPEN iN PRIMELIST_DOMAINS.TXT]
